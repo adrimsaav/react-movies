@@ -5,7 +5,7 @@ import "./App.css";
 import LoginPage from "../LoginPage/LoginPage";
 import MoviesListPage from "../MoviesListPage/MoviesListPage";
 import MovieDetailPage from "../MovieDetailPage/MovieDetailPage";
-import ActorListPage from "../ActorListPage/ActorListPage";
+import ActorsListPage from "../ActorsListPage/ActorsListPage";
 import NavBar from "../../components/NavBar/NavBar";
 
 export default function App() {
@@ -22,7 +22,7 @@ export default function App() {
               path="/movies/:movieName"
               element={<MovieDetailPage movies={movies} />}
             />
-            <Route path="/actors" element={<ActorListPage />} />
+            <Route path="/actors" element={<ActorsListPage />} />
           </Routes>
         </>
       ) : (

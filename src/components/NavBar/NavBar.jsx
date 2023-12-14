@@ -7,8 +7,6 @@ export default function NavBar() {
       <Link to="/">Movies List Page</Link>
       &nbsp; | &nbsp;
       <Link to="/actors">Actors</Link>
-      &nbsp; | &nbsp;
-      <span>Welcome, {user.username}!</span>
     </nav>
   );
   }
